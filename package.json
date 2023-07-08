@@ -2,7 +2,7 @@
   "name": "spotifly",
   "version": "0.1.1",
   "description": "Spotify library in typescript without using the Spotify Web API.",
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "type": "module",
   "directories": {
     "test": "tests"

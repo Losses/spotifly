@@ -1,5 +1,5 @@
-import { SpotiflyBase } from "./base.js";
-import { Musixmatch } from "./musixmatch.js";
+import { SpotiflyBase } from "./base.ts";
+import { Musixmatch } from "./musixmatch.ts";
 import { SpotifyAlbum, SpotifyArtist, SpotifyColorLyrics, SpotifyEpisode, SpotifyExtractedColors, SpotifyHome, SpotifyLikedSongs, SpotifyLikedSongsAdd, SpotifyLikedSongsRemove, SpotifyMyLibrary, SpotifyPlaylist, SpotifyPodcast, SpotifyPodcastEpisodes, SpotifyProductState, SpotifyRelatedTrackArtists, SpotifySearchAlbums, SpotifySearchAll, SpotifySearchArtists, SpotifySearchPlaylists, SpotifySearchPodcasts, SpotifySearchTracks, SpotifySearchUsers, SpotifySection, SpotifyTrack, SpotifyTrackCredits, SpotifyUser } from "./types";
 
 class SpotiflyMain extends SpotiflyBase {
@@ -153,6 +153,6 @@ class SpotiflyMain extends SpotiflyBase {
 
 }
 
-export { Parse } from "./parse.js";
-export { SpotiflyPlaylist } from "./playlist.js";
+export { Parse } from "./parse.ts";
+export { SpotiflyPlaylist } from "./playlist.ts";
 export { Musixmatch, SpotiflyMain as Spotifly };

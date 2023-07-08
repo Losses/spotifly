@@ -1,5 +1,5 @@
-import { SpotiflyBase } from "./base.js";
-import { Parse } from "./parse.js";
+import { SpotiflyBase } from "./base.ts";
+import { Parse } from "./parse.ts";
 
 export class SpotiflyPlaylist extends SpotiflyBase {
 

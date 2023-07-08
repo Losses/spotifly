@@ -1,4 +1,4 @@
-import { MusixmatchSearch } from "./types/musixmatchSearch";
+import { MusixmatchSearch } from "./types/index.ts";
 
 export namespace Musixmatch {
 

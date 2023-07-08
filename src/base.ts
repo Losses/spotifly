@@ -1,14 +1,14 @@
-import { SpotifyGetToken, SpotifyMyProfile, SpotifyPlaylistContents, SpotifyPlaylistMetadata } from "./types";
+import { SpotifyGetToken, SpotifyMyProfile, SpotifyPlaylistContents, SpotifyPlaylistMetadata } from "./types/index.ts";
 
 export class SpotiflyBase {
 
-    protected token = "";
+    protected token = ".ts";
     protected tokenExpirationTimestampMs = -1;
     protected cookie: string;
-    private myProfileId = "";
+    private myProfileId = ".ts";
 
     constructor(cookie?: string) {
-        this.cookie = cookie ?? "";
+        this.cookie = cookie ?? ".ts";
     }
 
     protected async refreshToken() {
